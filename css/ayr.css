@@ -1,0 +1,32 @@
+.mainayr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 0px;
+    }
+    
+    .reglas { grid-area: 1 / 1 / 2 / 2; }
+    .ayuda { grid-area: 1 / 2 / 2 / 3; }
+    li , ul{
+        text-decoration: none;
+    }
+main div{
+    background-color: rgba(240, 248, 255, 0.438);
+    border-radius: 20px;
+}
+main{
+    text-align: center;
+    background-color: black;
+}
+footer{
+    text-align: center;
+    font-size:200%;
+    background-size:cover;
+}
+footer h2{
+    font-size: 200%;
+}
+footer img{
+    width: 6%;
+}

@@ -1,0 +1,15 @@
+main h2{text-align: center;}
+footer{
+    text-align: center;
+    font-size:200%;
+    background-size:cover;
+}
+footer h2{
+    font-size: 200%;
+}
+footer img{
+    width: 10%;
+}
+section{
+    background-color: rgba(133, 33, 33, 0.815);
+}

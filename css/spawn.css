@@ -1,0 +1,114 @@
+.spawnrpg {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .ayr { grid-area: 1 / 1 / 2 / 3; }
+    .clanes { grid-area: 2 / 3 / 3 / 5; }
+    .misiones { grid-area: 3 / 1 / 4 / 3; }
+    .niveles { grid-area: 4 / 3 / 5 / 5; }
+    .crafteos { grid-area: 5 / 1 / 6 / 3; }
+    
+    .ayr {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .pergamino { grid-area: 1 / 1 / 2 / 2; }
+        .ayrcontent { grid-area: 1 / 2 / 2 / 3; }
+
+        .pergamino{
+            width: 80%;
+            
+        }
+
+        .clanes {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .clanlogo { grid-area: 1 / 1 / 2 / 2; }
+            .clancontent { grid-area: 1 / 2 / 2 / 3; }
+            .clanlogo{
+                width: 80%;
+                
+            }
+
+            .misiones {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: 1fr;
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+                }
+                
+                .misioneslogo { grid-area: 1 / 1 / 2 / 2; }
+                .misionescontent { grid-area: 1 / 2 / 2 / 3; }
+                .misioneslogo{
+                    width: 100%;
+                }
+
+
+                .niveles {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: 1fr;
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    }
+                    
+                    .niveleslogo { grid-area: 1 / 1 / 2 / 2; }
+                    .nivelescontent { grid-area: 1 / 2 / 2 / 3; }
+                    .niveleslogo{
+                        width: 100%;
+                    }
+
+                    .crafteos {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-template-rows: 1fr;
+                        grid-column-gap: 0px;
+                        grid-row-gap: 0px;
+                        }
+                        
+                        .craftlogo { grid-area: 1 / 1 / 2 / 2; }
+                        .craftcontent { grid-area: 1 / 2 / 2 / 3; }
+
+                        .craftlogo{
+                            width: 100%;
+                        }
+
+.spawnrpg{
+    background-image: url("../imagenes/spawnrpg.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50%;
+}
+main .dividendo{background-color: rgba(240, 248, 255, 0.377);
+border-radius: 40px;}
+main img{border-radius: 40px;}
+    
+footer{
+    text-align: center;
+    font-size:200%;
+    background-size:cover;
+}
+footer h2{
+    font-size: 200%;
+}
+footer img{
+    width: 10%;
+}
+.craftlogo , .misioneslogo , .niveleslogo{
+    width: 100%;
+    height: 100%;
+}

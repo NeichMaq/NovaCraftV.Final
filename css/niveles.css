@@ -1,0 +1,94 @@
+.niveles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .nivel1 { grid-area: 1 / 1 / 2 / 2; }
+    .nivel2 { grid-area: 2 / 2 / 3 / 3; }
+    .nivel3 { grid-area: 3 / 1 / 4 / 2; }
+    .nivel4 { grid-area: 4 / 2 / 5 / 3; }
+    .nivel5 { grid-area: 5 / 1 / 6 / 2; }
+    .nivel6 { grid-area: 6 / 2 / 7 / 3; }
+    .nivel7 { grid-area: 7 / 1 / 8 / 2; }
+    .nivel8 { grid-area: 8 / 2 / 9 / 3; }
+    .nivel9 { grid-area: 9 / 1 / 10 / 2; }
+    .nivel10 { grid-area: 10 / 2 / 11 / 3; }
+    
+    .nivel1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .in1 { grid-area: 1 / 1 / 2 / 2; }
+        .ip1 { grid-area: 1 / 2 / 2 / 3; }
+        
+    .in1 img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    .ip1{
+        text-align: center;
+        border-radius: 20px;
+    }
+    li{
+        list-style: none;
+    }
+    .nivel2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .nivel2img { grid-area: 1 / 1 / 2 / 2; }
+        .cn2 { grid-area: 1 / 2 / 2 / 3; }
+        main img{
+            width: 100%;
+            border-radius: 20px;
+        }
+        main{
+            font-size: 150%;
+            text-align: center;
+        }
+        .n {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .nimg { grid-area: 1 / 1 / 2 / 2; }
+            .ncontent { grid-area: 1 / 2 / 2 / 3; }
+            .n3 {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 1fr;
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+                }
+                
+                .nimg1 { grid-area: 1 / 1 / 2 / 2; }
+                .nimg2 { grid-area: 1 / 2 / 2 / 3; }
+                .ncontent2 { grid-area: 1 / 3 / 2 / 4; }
+footer{
+    text-align: center;
+    font-size:200%;
+    background-size:cover;
+}
+footer h2{
+    font-size: 200%;
+}
+footer img{
+    width: 10%;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.411);
+}

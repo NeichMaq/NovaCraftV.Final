@@ -1,0 +1,83 @@
+.geologo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .geoimg { grid-area: 1 / 1 / 2 / 2; }
+    .geocontent { grid-area: 1 / 2 / 2 / 3; }
+    .herrero {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .heimg { grid-area: 1 / 1 / 2 / 2; }
+        .hecontent { grid-area: 1 / 2 / 2 / 3; }
+        .guardia {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .gimg { grid-area: 1 / 1 / 2 / 2; }
+            .gcontent { grid-area: 1 / 2 / 2 / 3; }
+            .mobs {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: 1fr;
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+                }
+                
+                .mimg { grid-area: 1 / 1 / 2 / 2; }
+                .mcontent { grid-area: 1 / 2 / 2 / 3; }
+                .explorador {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: 1fr;
+                    grid-column-gap: 0px;
+                    grid-row-gap: 0px;
+                    }
+                    
+                    .eimg { grid-area: 1 / 1 / 2 / 2; }
+                    .econtent { grid-area: 1 / 2 / 2 / 3; }
+                    .cazador {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-template-rows: 1fr;
+                        grid-column-gap: 0px;
+                        grid-row-gap: 0px;
+                        }
+                        
+                        .cimg { grid-area: 1 / 1 / 2 / 2; }
+                        .ccontent { grid-area: 1 / 2 / 2 / 3; }
+                        
+main img{
+    width: 100%;
+}
+main{
+    background-color: rgba(255, 0, 0, 0.664);
+}
+footer{
+    text-align: center;
+    font-size:200%;
+    background-size:cover;
+}
+footer h2{
+    font-size: 200%;
+}
+footer img{
+    width: 10%;
+}
+main div{
+    border-top:2px black solid;
+    border-right:2px black solid;
+    border-left:2px black solid;
+}

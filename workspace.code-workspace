@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\NovaCraft V.3 Sass\\node_modules"
+		},
+		{
+			"path": "..\\NovaCraft CSS\\imagenes"
+		}
+	],
+	"settings": {
+		"python.languageServer": "Pylance",
+		"typescript.tsserver.maxTsServerMemory": 3072,
+		"typescript.tsserver.watchOptions": {
+			"watchFile": "dynamicPriorityPolling"
+		},
+		"python.analysis.typeCheckingMode": "basic",
+		"javascript.suggest.includeAutomaticOptionalChainCompletions": false,
+		"debug.saveBeforeStart": "none",
+		"liveServer.settings.multiRootWorkspaceName": "NovaCraft V.3 3 en 1"
+	}
+}

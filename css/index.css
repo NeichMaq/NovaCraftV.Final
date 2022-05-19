@@ -1,0 +1,99 @@
+.mainhub {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .Survival { grid-area: 2 / 2 / 5 / 6; }
+    .RPG { grid-area: 4 / 8 / 7 / 12; }
+    .Skyblock { grid-area: 6 / 2 / 9 / 6; }
+    .Cambios { grid-area: 8 / 8 / 11 / 12; }
+
+    .Survival {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .imgS { grid-area: 1 / 1 / 2 / 2; }
+        .contenidoS { grid-area: 1 / 2 / 2 / 3; }
+    
+main img{
+    width: 100%;
+}
+    .Skyblock {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+    
+        .lps { grid-area: 1 / 1 / 2 / 2; }
+        .pps { grid-area: 1 / 2 / 2 / 3; }
+        .RPG {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .irpg { grid-area: 1 / 1 / 2 / 2; }
+            .prpg { grid-area: 1 / 2 / 2 / 3; }
+            .Cambios {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: 1fr;
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+                }
+            
+                .icambios { grid-area: 1 / 1 / 2 / 2; }
+                .pcambios { grid-area: 1 / 2 / 2 / 3; }
+
+.Cambios{
+    background-color: rgba(255, 0, 0, 0.795);
+    border-radius: 20px;
+}
+.mainhub img{
+border-radius: 20px;
+height: 100%;
+width: 100%;
+}
+.Skyblock{
+    background-color: rgba(81, 156, 81, 0.726);
+    border-radius: 20px;
+}
+.RPG{
+    background-color: rgba(0, 100, 0, 0.726);
+    border-radius: 20px;
+}
+.Survival{
+    background-color: rgba(0, 255, 255, 0.726);
+    border-radius: 20px;
+}
+.mainhub{
+    background-image: url("../imagenes/lobby.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.prpg{
+    color: rgb(22, 22, 22);
+}
+footer{
+    text-align: center;
+    font-size:200%;
+    background-size:cover;
+}
+footer h2{
+    font-size: 200%;
+}
+footer img{
+    width: 10%;
+}
